@@ -10,7 +10,7 @@ function Navbar() {
     const [toggleMenu,setToggleMenu] = useState(false)
     const [headerColor,setHeaderColor] = useState(false)
     const changeColor = () => {
-        if(window.scrollY >= 1)
+        if(window.scrollY >= 100)
         {
             setHeaderColor(true)
         }else {
