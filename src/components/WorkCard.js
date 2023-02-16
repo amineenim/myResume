@@ -8,12 +8,12 @@ function WorkCard(props) {
     <div className='project-card'>
         <img src={props.imgsrc} alt="shopping-image"/>
         <h2 className='project-tile'>{props.title}</h2>
-        <div className='project-details'>
-            <p>{props.description.length > 260 ? 
-            (trimText ? props.description.substring(0,260)+'...' : props.description) 
+        <div className={props.description.length > 200 ? 'project-details' : 'project-details-2' } >
+            <p>{props.description.length > 200 ? 
+            (trimText ? props.description.substring(0,200)+'...' : props.description) 
             : props.description}</p>
-            <div className={props.description.length > 260 ? 'project-buttons' : 'project-buttons-2'}>
-                {props.description.length > 260 ? 
+            <div className='project-buttons'>
+                {props.description.length > 200 ? 
                     (<NavLink to="" className='btn'
                     onClick={() => setTrimText(!trimText) }
                     >
@@ -22,7 +22,7 @@ function WorkCard(props) {
                     : ""
                 }
                 <NavLink to={props.url} className='btn'>View On Github</NavLink>
-             </div>
+            </div>
         </div>
     </div>
   )

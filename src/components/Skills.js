@@ -14,7 +14,6 @@ import node from '../assets/skills/node.webp'
 
 
 export default function Skills() {
-    const mastering = [0.9,0.9,0.8,0.9,1,1,0.7,0.7,0.8,0.7]
   return (
     <div className='skills'>
         <h2>Skills and Tools</h2>
@@ -26,9 +25,6 @@ export default function Skills() {
                 </div>
                 <span className='bar'></span>
                 <h4>PHP</h4>
-                <div className='maitrise'>
-                    <div className='full' style={{width :mastering[0] * 180}} ></div>
-                </div>
             </div>
             <div className='skill'>
                 <div className='logo-container'>
@@ -37,9 +33,6 @@ export default function Skills() {
                 </div>
                 <span className='bar'></span>
                 <h4>Laravel</h4>
-                <div className='maitrise'>
-                    <div className='full' style={{width :mastering[0] * 180}} ></div>
-                </div>
             </div>
             <div className='skill'>
                 <div className='logo-container'>
@@ -48,9 +41,6 @@ export default function Skills() {
                 </div>
                 <span className='bar'></span>
                 <h4>React</h4>
-                <div className='maitrise'>
-                    <div className='full' style={{width :mastering[0] * 180}} ></div>
-                </div>
             </div>
             <div className='skill'>
                 <div className='logo-container'>
@@ -59,9 +49,6 @@ export default function Skills() {
                 </div>
                 <span className='bar'></span>
                 <h4>Javascript</h4>
-                <div className='maitrise'>
-                    <div className='full' style={{width :mastering[0] * 180}} ></div>
-                </div>
             </div>
             <div className='skill'>
                 <div className='logo-container'>
@@ -70,9 +57,6 @@ export default function Skills() {
                 </div>
                 <span className='bar'></span>
                 <h4>HTML 5</h4>
-                <div className='maitrise'>
-                    <div className='full' style={{width :mastering[0] * 180}} ></div>
-                </div>
             </div>
             <div className='skill'>
                 <div className='logo-container'>
@@ -81,9 +65,6 @@ export default function Skills() {
                 </div>
                 <span className='bar'></span>
                 <h4>CSS 3</h4>
-                <div className='maitrise'>
-                    <div className='full' style={{width :mastering[0] * 180}} ></div>
-                </div>
             </div>
             <div className='skill'>
                 <div className='logo-container'>
@@ -92,9 +73,6 @@ export default function Skills() {
                 </div>
                 <span className='bar'></span>
                 <h4>Bootstrap</h4>
-                <div className='maitrise'>
-                    <div className='full' style={{width :mastering[0] * 180}} ></div>
-                </div>
             </div>
             <div className='skill'>
                 <div className='logo-container'>
@@ -103,9 +81,6 @@ export default function Skills() {
                 </div>
                 <span className='bar'></span>
                 <h4>Angular</h4>
-                <div className='maitrise'>
-                    <div className='full' style={{width :mastering[0] * 180}} ></div>
-                </div>
             </div>
             <div className='skill'>
                 <div className='logo-container'>
@@ -114,9 +89,6 @@ export default function Skills() {
                 </div>
                 <span className='bar'></span>
                 <h4>Swift</h4>
-                <div className='maitrise'>
-                    <div className='full' style={{width :mastering[0] * 180}} ></div>
-                </div>
             </div>
             <div className='skill'>
                 <div className='logo-container'>
@@ -125,9 +97,6 @@ export default function Skills() {
                 </div>
                 <span className='bar'></span>
                 <h4>Node Js</h4>
-                <div className='maitrise'>
-                    <div className='full' style={{width :mastering[0] * 180}} ></div>
-                </div>
             </div>
         </div>
     </div>

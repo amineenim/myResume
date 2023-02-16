@@ -37,23 +37,13 @@
     flex-direction: column;
     margin-bottom: 2rem;
     align-items: center;
+    margin-right: 1rem;
 }
 .skill h4 {
     margin-bottom: 1rem;
     text-decoration: underline;
 }
-.maitrise {
-    background-color: white;
-    height: 2rem;
-    width : 12rem;
-    border : solid #eee 1px;
-    border-radius: 20px;
-}
-.full {
-    background-color: rgb(156, 64, 64);
-    height: 1.84rem;
-    border-radius: 20px;
-}
+
 .bar {
     border-bottom: solid 1px #eee ;
     width: 20%;
