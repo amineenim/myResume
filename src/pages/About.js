@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ProjectBody from '../components/ProjectBody';
+import AboutContent from '../components/AboutContent';
 
 function About() {
   return (
@@ -11,6 +12,7 @@ function About() {
         heading="About Me"
         text="Full Stack Developer"
         />
+        <AboutContent/>
         <Footer/>
     </div>
   )

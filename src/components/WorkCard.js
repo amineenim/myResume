@@ -7,7 +7,7 @@ function WorkCard(props) {
   return (
     <div className='project-card'>
         <img src={props.imgsrc} alt="shopping-image"/>
-        <h2 className='project-tile'>{props.title}</h2>
+        <h2 className='project-title'>{props.title}</h2>
         <div className={props.description.length > 200 ? 'project-details' : 'project-details-2' } >
             <p>{props.description.length > 200 ? 
             (trimText ? props.description.substring(0,200)+'...' : props.description) 

@@ -14,6 +14,10 @@
 .project-card {
     background: #1a1919;
     padding: 1.2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 .project-card img {
     width: 100%;
@@ -39,11 +43,9 @@
 .project-details {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
-.project-details-2 {
-    height: 16rem;
-}
+
 .project-details-2 p {
     margin-bottom: 4rem;
 }

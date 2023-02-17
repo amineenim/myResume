@@ -16,6 +16,7 @@ function Work() {
                             <WorkCard
                             key={index}
                             imgsrc = {value.imgsrc}
+                            title = {value.title}
                             description = {value.description}
                             url = {value.url}
                             />

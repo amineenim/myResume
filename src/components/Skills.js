@@ -11,6 +11,7 @@ import bootstrap from '../assets/skills/bootstrap.png'
 import angular from '../assets/skills/angular.png'
 import swift from '../assets/skills/swift.svg'
 import node from '../assets/skills/node.webp'
+import docker from '../assets/skills/docker.webp'
 
 
 export default function Skills() {
@@ -49,6 +50,14 @@ export default function Skills() {
                 </div>
                 <span className='bar'></span>
                 <h4>Javascript</h4>
+            </div>
+            <div className='skill'>
+                <div className='logo-container'>
+                    <img src={docker} alt="docker mascot" 
+                    className='logo'/>
+                </div>
+                <span className='bar'></span>
+                <h4>Docker</h4>
             </div>
             <div className='skill'>
                 <div className='logo-container'>

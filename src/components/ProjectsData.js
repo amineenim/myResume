@@ -10,7 +10,7 @@ import plante from '../assets/plant.avif';
 const ProjectData = [
     {
         imgsrc : shopping,
-        title : 'hey',
+        title : 'Online Store',
         description : "This is an E-Commerce User interface that allows the user to shop items from a shop that provides products from a fakestoreAPI, the app handles updating the global state using the Redux management state toolkit , the UI allows the user to click an item as many times as he likes, the item quantity, the total items in cart and the total price are updated in response, the user can also remove all items related to a product from cart and also to reset his cart, he has also the possibility to navigate between different pages and sort products by the desired category.",
         url : "https://github.com/amineenim/E-Commerce-UI"
     },
