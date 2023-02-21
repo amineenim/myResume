@@ -20,3 +20,9 @@ form input, form textarea {
     border-color: rgba(255, 255, 255, 0.1);
     color: #f4f4f4;
 }
+.errorMsg {
+    font-size: 0.9rem;
+    color: red;
+    padding-top: 0;
+    padding-bottom: 0.8rem;
+}
